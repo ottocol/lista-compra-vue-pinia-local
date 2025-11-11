@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
+    "colada-plugin": "^0.1.0",
     "vite": "^7.1.7",
     "vite-plugin-vue-devtools": "^8.0.2"
   }
