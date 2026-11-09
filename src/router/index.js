@@ -14,11 +14,7 @@ const routes = [
   {
     path: '/lista',
     name: 'Lista',
-    component: ListaCompra,
-    //en el campo meta podemos guardar propiedades arbitrarias inventadas por nosotros
-    //en este caso indicamos que el componente requiere autenticación
-    //lo usamos en el beforeEach (más abajo)
-    meta: { requiresAuth: true },
+    component: ListaCompra
   },
   {
     path: '/about',
